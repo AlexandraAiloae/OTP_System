@@ -1,0 +1,47 @@
+.validation-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.validation-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.validation-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.validation-container input[type="text"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.validation-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: rgb(163, 3, 3);
+}
+
+.success-message {
+  color: green;
+}
+
+.validation-container button:hover {
+  background-color: #0056b3;
+}
